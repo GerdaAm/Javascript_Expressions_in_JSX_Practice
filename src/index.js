@@ -10,7 +10,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 const yourName = "Gerda Amoraal";
-const currentYear = 2021;
+var date = new Date();
+var currentYear = date.getFullYear();
 
 ReactDOM.render(
   <div>
